@@ -47,7 +47,7 @@ public class Terrain {
   /**
    * Returns a reference to the terrain contents. <strong>Important!</strong>
    * This is <strong>not</strong> a safe copy.
-   * 
+   *
    * @return
    */
   public RpsBreed[][] getGrid() {
