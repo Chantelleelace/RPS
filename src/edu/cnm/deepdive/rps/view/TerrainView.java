@@ -7,12 +7,12 @@ import javafx.scene.paint.Color;
 
 public class TerrainView extends Canvas {
 
-  private static final double MAX_HUE = 281;
+  private static final double MAX_HUE = 856;
   private static final Color[] BREED_COLORS = new Color[RpsBreed.values().length];
 
   static  {
     for (int i = 0; i < BREED_COLORS.length; i++) {
-      BREED_COLORS[i] = Color.hsb(i * MAX_HUE / BREED_COLORS.length, 1, 0.9);
+      BREED_COLORS[i] = Color.hsb(i * MAX_HUE / BREED_COLORS.length, 1, 0.8);
     }
   }
 
